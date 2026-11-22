@@ -37,7 +37,8 @@ nav ul a.active { color: var(--accent); font-weight: 600; background: var(--bg-s
 .headshot { width: 100%; aspect-ratio: 4 / 5; border-radius: 14px; }
 .statement { font-size: 1.05rem; margin: 0 0 14px; }
 .hero-text .tags { margin-top: 20px; }
-.cv-summary { display: grid; grid-template-columns: 1.4fr 1fr; gap: 48px; }
+.cv-summary { display: grid; grid-template-columns: 1.3fr 1fr; gap: 48px; }
+.cv-summary h2 { font-size: 1.4rem; margin-bottom: 18px; }
 .cv-summary ul { list-style: none; margin: 0; padding: 0; }
 .cv-summary li { display: flex; justify-content: space-between; gap: 16px; margin-bottom: 14px; line-height: 1.45; }
 .cv-summary li strong { display: block; font-weight: 600; }
