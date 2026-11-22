@@ -33,7 +33,7 @@ nav ul a.active { color: var(--accent); font-weight: 600; background: var(--bg-s
 
 /* ----- Home: hero ----- */
 .hero { padding: 72px 0 56px; text-align: center; }
-.headshot { width: 180px; height: 180px; border-radius: 50%; margin: 0 auto 28px; }
+.headshot { width: 280px; aspect-ratio: 4 / 5; border-radius: 14px; margin: 0 auto 32px; }
 .hero h1 { font-family: var(--font-head); font-size: clamp(2.4rem, 6vw, 3.4rem); line-height: 1.1; margin: 0 0 12px; }
 .hero .role { font-size: 1.15rem; color: var(--muted); margin: 0 0 24px; }
 .tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 28px; }
@@ -76,7 +76,7 @@ footer .wrap { display: flex; justify-content: space-between; flex-wrap: wrap; g
   nav ul { width: 100%; padding-bottom: 6px; }
   nav ul a { padding: 8px 10px; }
   .hero { padding: 48px 0 40px; }
-  .headshot { width: 140px; height: 140px; }
+  .headshot { width: 220px; }
   .entry-head { flex-direction: column; gap: 0; }
   .entry-title { flex: none; }
 }
